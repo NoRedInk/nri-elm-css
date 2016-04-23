@@ -1,6 +1,6 @@
-module Colors (grayDarker) where
+module Nri.Colors (grayDarker) where
 {-| Helper module for working with colors
-@doc grayDarker
+@docs grayDarker
 -}
 
 import Css exposing (hex)
