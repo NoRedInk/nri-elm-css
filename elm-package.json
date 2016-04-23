@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "summary": "Helpers for working with NRI styling",
+    "repository": "https://github.com/NoRedInk/nri-elm-css.git",
+    "license": "BSD3",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [],
+    "dependencies": {
+        "elm-lang/core": "3.0.0 <= v < 4.0.0",
+        "rtfeldman/elm-css": "2.1.1 <= v < 3.0.0"
+    },
+    "elm-version": "0.16.0 <= v < 0.17.0"
+}
