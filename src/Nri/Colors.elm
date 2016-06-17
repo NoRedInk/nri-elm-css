@@ -1,4 +1,4 @@
-module Nri.Colors (grayDarker) where
+module Nri.Colors exposing (grayDarker)
 {-| Helper module for working with colors
 @docs grayDarker
 -}

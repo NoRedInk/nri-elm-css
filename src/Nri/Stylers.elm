@@ -1,4 +1,4 @@
-module Nri.Stylers (makeFont) where
+module Nri.Stylers exposing (makeFont)
 {-| Helper module for working with fonts
 
 @docs makeFont

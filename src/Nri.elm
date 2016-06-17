@@ -1,4 +1,4 @@
-module Nri (name) where
+module Nri exposing (name)
 {-| A collection of helpers for working with NoRedInk projects
 @docs name
 -}
