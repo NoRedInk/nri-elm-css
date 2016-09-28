@@ -10,7 +10,8 @@
         "Nri",
         "Nri.Colors",
         "Nri.Stylers",
-        "Nri.Fonts"
+        "Nri.Fonts",
+        "Nri.Accessibility"
     ],
     "dependencies": {
         "elm-lang/core": "4.0.0 <= v < 5.0.0",
