@@ -24,6 +24,9 @@ module Nri.Colors
         )
 
 {-| Helper module for working with colors
+
+@docs black, blue, blueDark, blueDark5, blueDark70, blueLighter, coral, coralLighter, coralLightest, gray, grayDark, grayDarker, grayLighter, grayLightest, turquoise, turquoiseLighter, turquoiseLightest, yellowDark, purple, green, white
+
 -}
 
 import Css exposing (hex)
