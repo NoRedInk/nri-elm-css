@@ -5,6 +5,9 @@ module Nri.Fonts
         )
 
 {-| Fonts for NoRedInk projects
+
+@docs baseFont, quizFont
+
 -}
 
 import Css exposing (..)
