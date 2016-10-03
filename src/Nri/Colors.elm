@@ -24,13 +24,13 @@ module Nri.Colors
         , turquoise
         , turquoiseLighter
         , turquoiseLightest
-        , yellowDark
         , white
+        , yellowDark
         )
 
 {-| Helper module for working with colors
 
-@docs black, blue, blueDark, blueDark5, blueDark70, blueLighter, coral, coralLighter, coralLightest, gray, grayDark, grayDarker, grayLighter, grayLightest, orange, orangeDark, orangeLighter, purple, purpleLighter, purpleLightest, turquoise, turquoiseLighter, turquoiseLightest, yellowDark, green, white
+@docs black, blue, blueDark, blueDark5, blueDark70, blueLighter, coral, coralLighter, coralLightest, gray, grayDark, grayDarker, grayLighter, grayLightest, green, orange, orangeDark, orangeLighter, purple, purpleLighter, purpleLightest, turquoise, turquoiseLighter, turquoiseLightest,  white, yellowDark
 
 -}
 
@@ -135,6 +135,13 @@ grayLightest =
     hex "#f8f8f8"
 
 
+{-| green
+-}
+green : Css.Color
+green =
+    hex "#3BD867"
+
+
 {-| orange
 -}
 orange : Css.Color
@@ -154,34 +161,6 @@ orangeDark =
 orangeLighter : Css.Color
 orangeLighter =
     hex "#F9C97B"
-
-
-{-| turquoise
--}
-turquoise : Css.Color
-turquoise =
-    hex "#08CFCB"
-
-
-{-| turquoiseLighter
--}
-turquoiseLighter : Css.Color
-turquoiseLighter =
-    hex "#B4F0EF"
-
-
-{-| turquoiseLightest
--}
-turquoiseLightest : Css.Color
-turquoiseLightest =
-    hex "#DAF8F7"
-
-
-{-| yellowDark
--}
-yellowDark : Css.Color
-yellowDark =
-    hex "#ffec75"
 
 
 {-| purple
@@ -205,11 +184,25 @@ purpleLightest =
     hex "#EEE8F2"
 
 
-{-| green
+{-| turquoise
 -}
-green : Css.Color
-green =
-    hex "#3BD867"
+turquoise : Css.Color
+turquoise =
+    hex "#08CFCB"
+
+
+{-| turquoiseLighter
+-}
+turquoiseLighter : Css.Color
+turquoiseLighter =
+    hex "#B4F0EF"
+
+
+{-| turquoiseLightest
+-}
+turquoiseLightest : Css.Color
+turquoiseLightest =
+    hex "#DAF8F7"
 
 
 {-| white
@@ -217,3 +210,10 @@ green =
 white : Css.Color
 white =
     hex "#fff"
+
+
+{-| yellowDark
+-}
+yellowDark : Css.Color
+yellowDark =
+    hex "#ffec75"
