@@ -14,6 +14,9 @@ module Nri.Colors
         , grayDarker
         , grayLighter
         , grayLightest
+        , orange
+        , orangeDark
+        , orangeLighter
         , turquoise
         , turquoiseLighter
         , turquoiseLightest
@@ -25,7 +28,7 @@ module Nri.Colors
 
 {-| Helper module for working with colors
 
-@docs black, blue, blueDark, blueDark5, blueDark70, blueLighter, coral, coralLighter, coralLightest, gray, grayDark, grayDarker, grayLighter, grayLightest, turquoise, turquoiseLighter, turquoiseLightest, yellowDark, purple, green, white
+@docs black, blue, blueDark, blueDark5, blueDark70, blueLighter, coral, coralLighter, coralLightest, gray, grayDark, grayDarker, grayLighter, grayLightest, orange, orangeDark, orangeLighter, turquoise, turquoiseLighter, turquoiseLightest, yellowDark, purple, green, white
 
 -}
 
@@ -128,6 +131,27 @@ grayLighter =
 grayLightest : Css.Color
 grayLightest =
     hex "#f8f8f8"
+
+
+{-| orange
+-}
+orange : Css.Color
+orange =
+    hex "#F5A623"
+
+
+{-| orangeDark
+-}
+orangeDark : Css.Color
+orangeDark =
+    hex "#F09819"
+
+
+{-| orangeLighter
+-}
+orangeLighter : Css.Color
+orangeLighter =
+    hex "#F9C97B"
 
 
 {-| turquoise
