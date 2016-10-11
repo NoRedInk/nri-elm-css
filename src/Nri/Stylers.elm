@@ -5,6 +5,7 @@ module Nri.Stylers exposing (makeFont)
 
 -}
 import Css exposing (..)
+import Nri.Fonts
 
 
 {-|
@@ -13,7 +14,7 @@ takes a size and a color and creates a font
 makeFont : Css.FontSize a -> Css.ColorValue b -> Mixin
 makeFont size fontColor =
     mixin
-        [ Css.property "font-family" "\"Varela Round\", \"Gotham\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+        [  Nri.Fonts.baseFont
         , fontSize size
         , color fontColor
         ]
