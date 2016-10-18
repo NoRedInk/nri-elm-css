@@ -3,11 +3,6 @@ module Nri.Css.Extra
         ( lineHeightNum
         , content
         , zIndex
-        , cursor
-        , pointer
-        , notAllowed
-        , default
-        , auto
         , wordWrap
         , overflowWrap
         , breakWord
@@ -18,10 +13,6 @@ module Nri.Css.Extra
 ## Properties
 
 @docs lineHeightNum, content, zIndex
-
-## Cursors
-
-@docs cursor, pointer, notAllowed, default, auto
 
 ## Overflow Wrap
 
@@ -51,68 +42,6 @@ content value =
 zIndex : Int -> Mixin
 zIndex value =
     property "z-index" <| toString value
-
-
-
--- Cursors
-
-
-type Cursor
-    = Pointer
-    | NotAllowed
-    | Default
-    | Auto
-
-
-{-| Css cursor helper
--}
-cursor : Cursor -> Mixin
-cursor value =
-    property "cursor" <| cursorToString value
-
-
-{-| pointer cursor
--}
-pointer : Cursor
-pointer =
-    Pointer
-
-
-{-| not-allowed cursor
--}
-notAllowed : Cursor
-notAllowed =
-    NotAllowed
-
-
-{-| default cursor
--}
-default : Cursor
-default =
-    Default
-
-
-{-| auto cursor
--}
-auto : Cursor
-auto =
-    Auto
-
-
-cursorToString : Cursor -> String
-cursorToString value =
-    case value of
-        Pointer ->
-            "pointer"
-
-        NotAllowed ->
-            "not-allowed"
-
-        Default ->
-            "default"
-
-        Auto ->
-            "auto"
 
 
 
