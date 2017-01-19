@@ -1,5 +1,5 @@
 {
-    "version": "1.6.1",
+    "version": "1.7.1",
     "summary": "Helpers for working with NRI styling",
     "repository": "https://github.com/NoRedInk/nri-elm-css.git",
     "license": "BSD3",
