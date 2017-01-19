@@ -32,4 +32,4 @@ quizFont =
 -}
 indieFlowerFont : Mixin
 indieFlowerFont =
-    fontFamilies [ qt "Indie Flower", "cursive" ]
+    fontFamilies [ qt "Indie Flower", "sans-serif" ]
