@@ -2,11 +2,12 @@ module Nri.Fonts
     exposing
         ( baseFont
         , quizFont
+        , indieFlowerFont
         )
 
 {-| Fonts for NoRedInk projects
 
-@docs baseFont, quizFont
+@docs baseFont, quizFont, indieFlowerFont
 
 -}
 
@@ -25,3 +26,10 @@ baseFont =
 quizFont : Mixin
 quizFont =
     fontFamilies [ qt "Vollkorn", qt "Georgia", "serif" ]
+
+
+{-| Font for accents
+-}
+indieFlowerFont : Mixin
+indieFlowerFont =
+    fontFamilies [ qt "Indie Flower", "cursive" ]
