@@ -5,6 +5,7 @@ module Nri.Colors
         , blueDark
         , blueDark5
         , blueDark70
+        , blueDeep
         , blueLighter
         , coral
         , coralLighter
@@ -34,7 +35,7 @@ module Nri.Colors
 
 {-| Helper module for working with colors
 
-@docs black, blue, blueDark, blueDark5, blueDark70, blueLighter, coral, coralLighter, coralLightest, gray, grayDark, grayDarker, grayLighter, grayLightest, green, greenLighter, greenLightest, linkBlue, linkBlueMed, orange, orangeDark, orangeLighter, purple, purpleLighter, purpleLightest, turquoise, turquoiseLighter, turquoiseLightest,  white, yellowDark
+@docs black, blue, blueDark, blueDark5, blueDark70, blueDeep, blueLighter, coral, coralLighter, coralLightest, gray, grayDark, grayDarker, grayLighter, grayLightest, green, greenLighter, greenLightest, linkBlue, linkBlueMed, orange, orangeDark, orangeLighter, purple, purpleLighter, purpleLightest, turquoise, turquoiseLighter, turquoiseLightest,  white, yellowDark
 
 -}
 
@@ -74,6 +75,14 @@ blueDark5 =
 blueDark70 : Css.Color
 blueDark70 =
     hex "#5484B0"
+
+
+{-| blueDeep
+kind of a navy-ish blue
+-}
+blueDeep : Css.Color
+blueDeep =
+    hex "#4a79a7"
 
 
 {-| blueLighter
