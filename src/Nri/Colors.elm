@@ -18,6 +18,12 @@ module Nri.Colors
         , green
         , greenLighter
         , greenLightest
+        , highlightLightBlue
+        , highlightLightMagenta
+        , highlightLightYellow
+        , highlightSolidBlue
+        , highlightSolidMagenta
+        , highlightSolidYellow
         , linkBlue
         , linkBlueMed
         , orange
@@ -35,11 +41,11 @@ module Nri.Colors
 
 {-| Helper module for working with colors
 
-@docs black, blue, blueDark, blueDark5, blueDark70, blueDeep, blueLighter, coral, coralLighter, coralLightest, gray, grayDark, grayDarker, grayLighter, grayLightest, green, greenLighter, greenLightest, linkBlue, linkBlueMed, orange, orangeDark, orangeLighter, purple, purpleLighter, purpleLightest, turquoise, turquoiseLighter, turquoiseLightest,  white, yellowDark
+@docs black, blue, blueDark, blueDark5, blueDark70, blueDeep, blueLighter, coral, coralLighter, coralLightest, gray, grayDark, grayDarker, grayLighter, grayLightest, green, greenLighter, greenLightest, highlightLightBlue, highlightLightMagenta, highlightLightYellow, highlightSolidBlue, highlightSolidMagenta, highlightSolidYellow, linkBlue, linkBlueMed, orange, orangeDark, orangeLighter, purple, purpleLighter, purpleLightest, turquoise, turquoiseLighter, turquoiseLightest, white, yellowDark
 
 -}
 
-import Css exposing (hex)
+import Css exposing (hex, rgba)
 
 
 {-| black
@@ -167,6 +173,48 @@ greenLighter =
 greenLightest : Css.Color
 greenLightest =
     hex "#E2F9E8"
+
+
+{-| highlightLightBlue
+-}
+highlightLightBlue : Css.Color
+highlightLightBlue =
+    rgba 66 219 255 0.75
+
+
+{-| highlightLightMagenta
+-}
+highlightLightMagenta : Css.Color
+highlightLightMagenta =
+    rgba 255 0 189 0.75
+
+
+{-| highlightLightYellow
+-}
+highlightLightYellow : Css.Color
+highlightLightYellow =
+    rgba 254 199 9 0.75
+
+
+{-| highlightSolidBlue
+-}
+highlightSolidBlue : Css.Color
+highlightSolidBlue =
+    hex "43dcff"
+
+
+{-| highlightSolidMagenta
+-}
+highlightSolidMagenta : Css.Color
+highlightSolidMagenta =
+    hex "ff00bd"
+
+
+{-| highlightSolidYellow
+-}
+highlightSolidYellow : Css.Color
+highlightSolidYellow =
+    hex "fec70a"
 
 
 {-| linkBlue
