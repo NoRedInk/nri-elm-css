@@ -8,7 +8,7 @@ module Nri.Fonts
 
 {-| Fonts for NoRedInk projects
 
-@docs baseFont, quizFont, indieFlowerFont, rubikFont
+@docs baseFont, quizFont, indieFlowerFont
 
 -}
 
