@@ -3,6 +3,7 @@ module Nri.Fonts
         ( baseFont
         , quizFont
         , indieFlowerFont
+        , rubikFont
         )
 
 {-| Fonts for NoRedInk projects
@@ -33,3 +34,10 @@ quizFont =
 indieFlowerFont : Mixin
 indieFlowerFont =
     fontFamilies [ qt "Indie Flower", "sans-serif" ]
+
+
+{-| Font for instructions, headers, and pretty much everything else
+-}
+rubikFont : Mixin
+rubikFont =
+    fontFamilies [ qt "Rubik", qt "Gotham", qt "Helvetica Neue", "Helvetica", "Arial", "sans-serif" ]
