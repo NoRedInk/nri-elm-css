@@ -186,7 +186,7 @@ highlightLightBlue =
 -}
 highlightLightMagenta : Css.Color
 highlightLightMagenta =
-    rgba 255 0 189 0.75
+    rgba 255 0 189 0.5
 
 
 {-| highlightLightYellow
