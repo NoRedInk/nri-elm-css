@@ -39,6 +39,7 @@ module Nri.Colors
         , turquoiseLightest
         , white
         , yellowDark
+        , yellowLight
         )
 
 {-| Helper module for working with colors
@@ -54,7 +55,7 @@ module Nri.Colors
 @docs purple, purpleLighter, purpleLightest
 @docs red, redLightest
 @docs turquoise, turquoiseLighter, turquoiseLightest
-@docs yellowDark
+@docs yellowDark, yellowLight
 
 -}
 
@@ -333,3 +334,10 @@ white =
 yellowDark : Css.Color
 yellowDark =
     hex "#ffec75"
+
+
+{-| yellowLight
+-}
+yellowLight : Css.Color
+yellowLight =
+    hex "#fffadc"
