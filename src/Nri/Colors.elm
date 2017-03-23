@@ -25,7 +25,9 @@ module Nri.Colors
         , highlightSolidMagenta
         , highlightSolidYellow
         , linkBlue
+        , linkBlueLight
         , linkBlueMed
+        , linkBlueDark
         , orange
         , orangeDark
         , orangeLighter
@@ -50,7 +52,7 @@ module Nri.Colors
 @docs gray, grayDark, grayDarker, grayLighter, grayLightest
 @docs green, greenLighter, greenLightest
 @docs highlightLightBlue, highlightLightMagenta, highlightLightYellow, highlightSolidBlue, highlightSolidMagenta, highlightSolidYellow
-@docs linkBlue, linkBlueMed
+@docs linkBlue, linkBlueLight, linkBlueMed, linkBlueDark
 @docs orange, orangeDark, orangeLighter
 @docs purple, purpleLighter, purpleLightest
 @docs red, redLightest
@@ -231,18 +233,32 @@ highlightSolidYellow =
     hex "fec70a"
 
 
-{-| linkBlue
+{-| main link and button color
 -}
 linkBlue : Css.Color
 linkBlue =
     hex "#40A8E4"
 
 
-{-| linkBlueMed
+{-| input accent color, link and button color against dark backgrounds where main color does not have enough contrast
+-}
+linkBlueLight : Css.Color
+linkBlueLight =
+    hex "#E4EFF5"
+
+
+{-| secondary color for cycling dots
 -}
 linkBlueMed : Css.Color
 linkBlueMed =
     hex "#bde7ff"
+
+
+{-| mix($link-blue, black, 90%)
+-}
+linkBlueDark : Css.Color
+linkBlueDark =
+    hex "#3A97CD"
 
 
 {-| orange
