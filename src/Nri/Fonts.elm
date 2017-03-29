@@ -19,14 +19,14 @@ import Css exposing (..)
 -}
 baseFont : Mixin
 baseFont =
-    fontFamilies [ qt "Varela Round", qt "Gotham", qt "Helvetica Neue", "Helvetica", "Arial", "sans-serif" ]
+    fontFamilies [ qt "Muli", qt "Helvetica Neue", "Helvetica", "Arial", "sans-serif" ]
 
 
 {-| Font for question sentences, or most interactable or graded fields
 -}
 quizFont : Mixin
 quizFont =
-    fontFamilies [ qt "Vollkorn", qt "Georgia", "serif" ]
+    fontFamilies [ qt "Georgia", "serif" ]
 
 
 {-| Font for accents
