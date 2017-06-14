@@ -116,7 +116,7 @@ blueDark70 =
 
 {-|
 
-    <p style="font-size:2em; color: #4a79a7">#4a79a7</p>
+<p style="font-size:2em; color: #4a79a7">#4a79a7</p>
 
 -}
 blueDeep : Css.Color
