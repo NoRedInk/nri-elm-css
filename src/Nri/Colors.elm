@@ -216,21 +216,25 @@ highlightLightYellow =
 -}
 highlightSolidBlue : Css.Color
 highlightSolidBlue =
-    hex "43dcff"
+    hex "#43dcff"
+
+
+{-|
 
 
 {-| highlightSolidMagenta
 -}
 highlightSolidMagenta : Css.Color
 highlightSolidMagenta =
-    hex "ff00bd"
+    hex "#ff00bd"
 
 
 {-| highlightSolidYellow
 -}
 highlightSolidYellow : Css.Color
 highlightSolidYellow =
-    hex "fec70a"
+    hex "#fec70a"
+
 
 
 {-| main link and button color
