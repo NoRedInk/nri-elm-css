@@ -25,9 +25,9 @@ module Nri.Colors
         , highlightSolidMagenta
         , highlightSolidYellow
         , linkBlue
+        , linkBlueDark
         , linkBlueLight
         , linkBlueMed
-        , linkBlueDark
         , orange
         , orangeDark
         , orangeLighter
