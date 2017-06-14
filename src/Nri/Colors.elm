@@ -66,7 +66,7 @@ import Css exposing (hex, rgba)
 
 {-|
 
-    "#333333"
+<p style="font-size:2em; color: #333333">#333333</p>
 
 -}
 black : Css.Color
@@ -76,7 +76,7 @@ black =
 
 {-|
 
-    "#40a8e4"
+<p style="font-size:2em; color: #40a8e4">#40a8e4</p>
 
 -}
 blue : Css.Color
@@ -86,7 +86,7 @@ blue =
 
 {-|
 
-    "#00488A"
+<p style="font-size:2em; color: #00488A">#00488A</p>
 
 -}
 blueDark : Css.Color
@@ -96,7 +96,7 @@ blueDark =
 
 {-|
 
-    "#F2F6F9"
+<p style="font-size:2em; color: #F2F6F9; background-color: black;">#F2F6F9</p>
 
 -}
 blueDark5 : Css.Color
@@ -106,7 +106,7 @@ blueDark5 =
 
 {-|
 
-    "#5484B0"
+<p style="font-size:2em; color: #5484B0">#5484B0</p>
 
 -}
 blueDark70 : Css.Color
@@ -114,8 +114,10 @@ blueDark70 =
     hex "#5484B0"
 
 
-{-| blueDeep
-"#4a79a7"
+{-|
+
+    <p style="font-size:2em; color: #4a79a7">#4a79a7</p>
+
 -}
 blueDeep : Css.Color
 blueDeep =
@@ -124,7 +126,7 @@ blueDeep =
 
 {-|
 
-    "#e4eff5"
+<p style="font-size:2em; color: #e4eff5; background-color: black;">#e4eff5</p>
 
 -}
 blueLighter : Css.Color
@@ -134,7 +136,7 @@ blueLighter =
 
 {-|
 
-    "#FF997B"
+<p style="font-size:2em; color: #FF997B">#FF997B</p>
 
 -}
 coral : Css.Color
@@ -144,7 +146,7 @@ coral =
 
 {-|
 
-    "#FFE0D7"
+<p style="font-size:2em; color: #FFE0D7; background-color: black;">#FFE0D7</p>
 
 -}
 coralLighter : Css.Color
@@ -154,7 +156,7 @@ coralLighter =
 
 {-|
 
-    "#FFF0EB"
+<p style="font-size:2em; color: #FFF0EB; background-color: black;">#FFF0EB</p>
 
 -}
 coralLightest : Css.Color
@@ -164,7 +166,7 @@ coralLightest =
 
 {-|
 
-    "#bfbfbf"
+<p style="font-size:2em; color: #bfbfbf; background-color: black;">#bfbfbf</p>
 
 -}
 gray : Css.Color
@@ -174,7 +176,7 @@ gray =
 
 {-|
 
-    "#8F8F8F"
+<p style="font-size:2em; color: #8F8F8F">#8F8F8F</p>
 
 -}
 grayDark : Css.Color
@@ -184,7 +186,7 @@ grayDark =
 
 {-|
 
-    "#7a787a"
+<p style="font-size:2em; color: #7a787a">#7a787a</p>
 
 -}
 grayDarker : Css.Color
@@ -194,7 +196,7 @@ grayDarker =
 
 {-|
 
-    "#EBEBEB"
+<p style="font-size:2em; color: #EBEBEB; background-color: black;">#EBEBEB</p>
 
 -}
 grayLighter : Css.Color
@@ -204,7 +206,7 @@ grayLighter =
 
 {-|
 
-    "#f8f8f8"
+<p style="font-size:2em; color: #f8f8f8; background-color: black;">#f8f8f8</p>
 
 -}
 grayLightest : Css.Color
@@ -214,7 +216,7 @@ grayLightest =
 
 {-|
 
-    "#3BD867"
+<p style="font-size:2em; color: #3BD867">#3BD867</p>
 
 -}
 green : Css.Color
@@ -224,7 +226,7 @@ green =
 
 {-|
 
-    "#C4F3D1"
+<p style="font-size:2em; color: #C4F3D1; background-color: black;">#C4F3D1</p>
 
 -}
 greenLighter : Css.Color
@@ -234,7 +236,7 @@ greenLighter =
 
 {-|
 
-    "#E2F9E8"
+<p style="font-size:2em; color: #E2F9E8; background-color: black;">#E2F9E8</p>
 
 -}
 greenLightest : Css.Color
@@ -244,7 +246,7 @@ greenLightest =
 
 {-|
 
-    "rgba(66, 219, 255, 0.75)"
+<p style="font-size:2em; color: rgba(66, 219, 255, 0.75)">rgba(66, 219, 255, 0.75)</p>
 
 -}
 highlightLightBlue : Css.Color
@@ -254,7 +256,7 @@ highlightLightBlue =
 
 {-|
 
-    "rgba(255, 0 ,189, 0.5)"
+<p style="font-size:2em; color: rgba(255, 0 ,189, 0.5)">rgba(255, 0 ,189, 0.5)</p>
 
 -}
 highlightLightMagenta : Css.Color
@@ -264,7 +266,7 @@ highlightLightMagenta =
 
 {-|
 
-    "rgba(254, 199 ,9, 0.75)"
+<p style="font-size:2em; color: rgba(254, 199 ,9, 0.75)">rgba(254, 199 ,9, 0.75)</p>
 
 -}
 highlightLightYellow : Css.Color
@@ -274,7 +276,7 @@ highlightLightYellow =
 
 {-|
 
-    "#43dcff"
+<p style="font-size:2em; color: #43dcff">#43dcff</p>
 
 -}
 highlightSolidBlue : Css.Color
@@ -284,7 +286,7 @@ highlightSolidBlue =
 
 {-|
 
-    "#ff00bd"
+<p style="font-size:2em; color: #ff00bd">#ff00bd</p>
 
 -}
 highlightSolidMagenta : Css.Color
@@ -294,7 +296,7 @@ highlightSolidMagenta =
 
 {-|
 
-    "#fec70a"
+<p style="font-size:2em; color: #fec70a">#fec70a</p>
 
 -}
 highlightSolidYellow : Css.Color
@@ -304,7 +306,7 @@ highlightSolidYellow =
 
 {-| main link and button color
 
-    "#40A8E4"
+<p style="font-size:2em; color: #40A8E4">#40A8E4</p>
 
 -}
 linkBlue : Css.Color
@@ -314,7 +316,7 @@ linkBlue =
 
 {-| input accent color, link and button color against dark backgrounds where main color does not have enough contrast
 
-    "#E4EFF5"
+<p style="font-size:2em; color: #E4EFF5; background-color: black;">#E4EFF5</p>
 
 -}
 linkBlueLight : Css.Color
@@ -324,7 +326,7 @@ linkBlueLight =
 
 {-| secondary color for cycling dots
 
-    "#bde7ff"
+<p style="font-size:2em; color: #bde7ff; background-color: black;">#bde7ff</p>
 
 -}
 linkBlueMed : Css.Color
@@ -334,7 +336,7 @@ linkBlueMed =
 
 {-| mix($link-blue, black, 90%)
 
-    "#3A97CD"
+<p style="font-size:2em; color: #3A97CD">#3A97CD</p>
 
 -}
 linkBlueDark : Css.Color
@@ -344,7 +346,7 @@ linkBlueDark =
 
 {-|
 
-    "#F5A623"
+<p style="font-size:2em; color: #F5A623">#F5A623</p>
 
 -}
 orange : Css.Color
@@ -354,7 +356,7 @@ orange =
 
 {-|
 
-    "#F09819"
+<p style="font-size:2em; color: #F09819">#F09819</p>
 
 -}
 orangeDark : Css.Color
@@ -364,7 +366,7 @@ orangeDark =
 
 {-|
 
-    "#F9C97B"
+<p style="font-size:2em; color: #F9C97B; background-color: black;">#F9C97B</p>
 
 -}
 orangeLighter : Css.Color
@@ -374,7 +376,7 @@ orangeLighter =
 
 {-|
 
-    "#8E62A7"
+<p style="font-size:2em; color: #8E62A7">#8E62A7</p>
 
 -}
 purple : Css.Color
@@ -384,7 +386,7 @@ purple =
 
 {-|
 
-    "#DDCFE4"
+<p style="font-size:2em; color: #DDCFE4; background-color: black;">#DDCFE4</p>
 
 -}
 purpleLighter : Css.Color
@@ -394,7 +396,7 @@ purpleLighter =
 
 {-|
 
-    "#EEE8F2"
+<p style="font-size:2em; color: #EEE8F2; background-color: black;">#EEE8F2</p>
 
 -}
 purpleLightest : Css.Color
@@ -404,7 +406,7 @@ purpleLightest =
 
 {-|
 
-    "#DF533A"
+<p style="font-size:2em; color: #DF533A">#DF533A</p>
 
 -}
 red : Css.Color
@@ -414,7 +416,7 @@ red =
 
 {-|
 
-    "#FDF6F5"
+<p style="font-size:2em; color: #FDF6F5">#FDF6F5</p>
 
 -}
 redLightest : Css.Color
@@ -424,7 +426,7 @@ redLightest =
 
 {-|
 
-    "#08CFCB"
+<p style="font-size:2em; color: #08CFCB">#08CFCB</p>
 
 -}
 turquoise : Css.Color
@@ -434,7 +436,7 @@ turquoise =
 
 {-|
 
-    "#B4F0EF"
+<p style="font-size:2em; color: #B4F0EF; background-color: black;">#B4F0EF</p>
 
 -}
 turquoiseLighter : Css.Color
@@ -444,7 +446,7 @@ turquoiseLighter =
 
 {-|
 
-    "#DAF8F7"
+<p style="font-size:2em; color: #DAF8F7; background-color: black;">#DAF8F7</p>
 
 -}
 turquoiseLightest : Css.Color
@@ -454,7 +456,7 @@ turquoiseLightest =
 
 {-|
 
-    "#fff"
+<p style="font-size:2em; color: #fff; background-color: black;">#fff</p>
 
 -}
 white : Css.Color
@@ -464,7 +466,7 @@ white =
 
 {-|
 
-    "#ffec75"
+<p style="font-size:2em; color: #ffec75; background-color: black;">#ffec75</p>
 
 -}
 yellowDark : Css.Color
@@ -474,7 +476,7 @@ yellowDark =
 
 {-|
 
-    "#fffadc"
+<p style="font-size:2em; color: #fffadc; background-color: black;">#fffadc</p>
 
 -}
 yellowLight : Css.Color
