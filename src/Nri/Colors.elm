@@ -64,35 +64,50 @@ module Nri.Colors
 import Css exposing (hex, rgba)
 
 
-{-| black
+{-|
+
+    "#333333"
+
 -}
 black : Css.Color
 black =
     hex "#333333"
 
 
-{-| blue
+{-|
+
+    "#40a8e4"
+
 -}
 blue : Css.Color
 blue =
     hex "#40a8e4"
 
 
-{-| blueDark
+{-|
+
+    "#00488A"
+
 -}
 blueDark : Css.Color
 blueDark =
     hex "#00488A"
 
 
-{-| blueDark5
+{-|
+
+    "#F2F6F9"
+
 -}
 blueDark5 : Css.Color
 blueDark5 =
     hex "#F2F6F9"
 
 
-{-| blueDark70
+{-|
+
+    "#5484B0"
+
 -}
 blueDark70 : Css.Color
 blueDark70 =
@@ -100,119 +115,167 @@ blueDark70 =
 
 
 {-| blueDeep
-kind of a navy-ish blue
+"#4a79a7"
 -}
 blueDeep : Css.Color
 blueDeep =
     hex "#4a79a7"
 
 
-{-| blueLighter
+{-|
+
+    "#e4eff5"
+
 -}
 blueLighter : Css.Color
 blueLighter =
     hex "#e4eff5"
 
 
-{-| coral
+{-|
+
+    "#FF997B"
+
 -}
 coral : Css.Color
 coral =
     hex "#FF997B"
 
 
-{-| coralLighter
+{-|
+
+    "#FFE0D7"
+
 -}
 coralLighter : Css.Color
 coralLighter =
     hex "#FFE0D7"
 
 
-{-| coralLightest
+{-|
+
+    "#FFF0EB"
+
 -}
 coralLightest : Css.Color
 coralLightest =
     hex "#FFF0EB"
 
 
-{-| gray
+{-|
+
+    "#bfbfbf"
+
 -}
 gray : Css.Color
 gray =
     hex "bfbfbf"
 
 
-{-| grayDark
+{-|
+
+    "#8F8F8F"
+
 -}
 grayDark : Css.Color
 grayDark =
     hex "#8F8F8F"
 
 
-{-| grayDarker
+{-|
+
+    "#7a787a"
+
 -}
 grayDarker : Css.Color
 grayDarker =
     hex "#7a787a"
 
 
-{-| grayLighter
+{-|
+
+    "#EBEBEB"
+
 -}
 grayLighter : Css.Color
 grayLighter =
     hex "#EBEBEB"
 
 
-{-| grayLightest
+{-|
+
+    "#f8f8f8"
+
 -}
 grayLightest : Css.Color
 grayLightest =
     hex "#f8f8f8"
 
 
-{-| green
+{-|
+
+    "#3BD867"
+
 -}
 green : Css.Color
 green =
     hex "#3BD867"
 
 
-{-| greenLighter
+{-|
+
+    "#C4F3D1"
+
 -}
 greenLighter : Css.Color
 greenLighter =
     hex "#C4F3D1"
 
 
-{-| greenLightest
+{-|
+
+    "#E2F9E8"
+
 -}
 greenLightest : Css.Color
 greenLightest =
     hex "#E2F9E8"
 
 
-{-| highlightLightBlue
+{-|
+
+    "rgba(66, 219, 255, 0.75)"
+
 -}
 highlightLightBlue : Css.Color
 highlightLightBlue =
     rgba 66 219 255 0.75
 
 
-{-| highlightLightMagenta
+{-|
+
+    "rgba(255, 0 ,189, 0.5)"
+
 -}
 highlightLightMagenta : Css.Color
 highlightLightMagenta =
     rgba 255 0 189 0.5
 
 
-{-| highlightLightYellow
+{-|
+
+    "rgba(254, 199 ,9, 0.75)"
+
 -}
 highlightLightYellow : Css.Color
 highlightLightYellow =
     rgba 254 199 9 0.75
 
 
-{-| highlightSolidBlue
+{-|
+
+    "#43dcff"
+
 -}
 highlightSolidBlue : Css.Color
 highlightSolidBlue =
@@ -221,23 +284,28 @@ highlightSolidBlue =
 
 {-|
 
+    "#ff00bd"
 
-{-| highlightSolidMagenta
 -}
 highlightSolidMagenta : Css.Color
 highlightSolidMagenta =
     hex "#ff00bd"
 
 
-{-| highlightSolidYellow
+{-|
+
+    "#fec70a"
+
 -}
 highlightSolidYellow : Css.Color
 highlightSolidYellow =
     hex "#fec70a"
 
 
-
 {-| main link and button color
+
+    "#40A8E4"
+
 -}
 linkBlue : Css.Color
 linkBlue =
@@ -245,6 +313,9 @@ linkBlue =
 
 
 {-| input accent color, link and button color against dark backgrounds where main color does not have enough contrast
+
+    "#E4EFF5"
+
 -}
 linkBlueLight : Css.Color
 linkBlueLight =
@@ -252,6 +323,9 @@ linkBlueLight =
 
 
 {-| secondary color for cycling dots
+
+    "#bde7ff"
+
 -}
 linkBlueMed : Css.Color
 linkBlueMed =
@@ -259,104 +333,149 @@ linkBlueMed =
 
 
 {-| mix($link-blue, black, 90%)
+
+    "#3A97CD"
+
 -}
 linkBlueDark : Css.Color
 linkBlueDark =
     hex "#3A97CD"
 
 
-{-| orange
+{-|
+
+    "#F5A623"
+
 -}
 orange : Css.Color
 orange =
     hex "#F5A623"
 
 
-{-| orangeDark
+{-|
+
+    "#F09819"
+
 -}
 orangeDark : Css.Color
 orangeDark =
     hex "#F09819"
 
 
-{-| orangeLighter
+{-|
+
+    "#F9C97B"
+
 -}
 orangeLighter : Css.Color
 orangeLighter =
     hex "#F9C97B"
 
 
-{-| purple
+{-|
+
+    "#8E62A7"
+
 -}
 purple : Css.Color
 purple =
     hex "#8E62A7"
 
 
-{-| purpleLighter
+{-|
+
+    "#DDCFE4"
+
 -}
 purpleLighter : Css.Color
 purpleLighter =
     hex "#DDCFE4"
 
 
-{-| purpleLightest
+{-|
+
+    "#EEE8F2"
+
 -}
 purpleLightest : Css.Color
 purpleLightest =
     hex "#EEE8F2"
 
 
-{-| red
+{-|
+
+    "#DF533A"
+
 -}
 red : Css.Color
 red =
     hex "#DF533A"
 
 
-{-| redLightest
+{-|
+
+    "#FDF6F5"
+
 -}
 redLightest : Css.Color
 redLightest =
     hex "#FDF6F5"
 
 
-{-| turquoise
+{-|
+
+    "#08CFCB"
+
 -}
 turquoise : Css.Color
 turquoise =
     hex "#08CFCB"
 
 
-{-| turquoiseLighter
+{-|
+
+    "#B4F0EF"
+
 -}
 turquoiseLighter : Css.Color
 turquoiseLighter =
     hex "#B4F0EF"
 
 
-{-| turquoiseLightest
+{-|
+
+    "#DAF8F7"
+
 -}
 turquoiseLightest : Css.Color
 turquoiseLightest =
     hex "#DAF8F7"
 
 
-{-| white
+{-|
+
+    "#fff"
+
 -}
 white : Css.Color
 white =
     hex "#fff"
 
 
-{-| yellowDark
+{-|
+
+    "#ffec75"
+
 -}
 yellowDark : Css.Color
 yellowDark =
     hex "#ffec75"
 
 
-{-| yellowLight
+{-|
+
+    "#fffadc"
+
 -}
 yellowLight : Css.Color
 yellowLight =
