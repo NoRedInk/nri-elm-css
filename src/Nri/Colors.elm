@@ -10,6 +10,7 @@ module Nri.Colors
         , coral
         , coralLighter
         , coralLightest
+        , frost
         , gray
         , grayDark
         , grayDarker
@@ -47,7 +48,7 @@ module Nri.Colors
 {-| Helper module for working with colors
 
 @docs black, white
-@docs blue, blueDark, blueDark5, blueDark70, blueDeep, blueLighter
+@docs blue, blueDark, blueDark5, blueDark70, blueDeep, blueLighter, frost
 @docs coral, coralLighter, coralLightest
 @docs gray, grayDark, grayDarker, grayLighter, grayLightest
 @docs green, greenLighter, greenLightest
@@ -162,6 +163,16 @@ coralLighter =
 coralLightest : Css.Color
 coralLightest =
     hex "#FFF0EB"
+
+
+{-|
+
+<p style="font-size:2em; color: #eef9ff; background-color: black;">#eef9ff</p>
+
+-}
+frost : Css.Color
+frost =
+    hex "#eef9ff"
 
 
 {-|
