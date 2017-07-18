@@ -15,6 +15,7 @@ module Nri.Colors
         , grayDarker
         , grayLighter
         , grayLightest
+        , grayFont
         , green
         , greenLighter
         , greenLightest
@@ -212,6 +213,16 @@ grayLighter =
 grayLightest : Css.Color
 grayLightest =
     hex "#f8f8f8"
+    
+
+{-|
+
+<p style="font-size:2em; color: #727272; background-color: black;">#727272</p>
+
+-}
+grayFont : Css.Color
+grayFont =
+    hex "#727272"
 
 
 {-|
