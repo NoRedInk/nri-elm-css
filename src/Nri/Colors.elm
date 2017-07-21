@@ -3,6 +3,7 @@ module Nri.Colors
         ( aqua
         , aquaDark
         , aquaLight
+        , azure
         , azureDark
         , black
         , blue
@@ -17,8 +18,16 @@ module Nri.Colors
         , cornflower
         , cornflowerDark
         , cornflowerLight
+        , cyan
+        , frost
+        , glacier
         , grassland
         , gray
+        , gray45
+        , gray75
+        , gray80
+        , gray92
+        , gray96
         , grayDark
         , grayDarker
         , grayLighter
@@ -26,6 +35,7 @@ module Nri.Colors
         , green
         , greenDark
         , greenDarkest
+        , greenLight
         , greenLighter
         , greenLightest
         , highlightLightBlue
@@ -39,40 +49,51 @@ module Nri.Colors
         , linkBlueDark
         , linkBlueLight
         , linkBlueMed
+        , magenta
+        , navy
         , orange
         , orangeDark
         , orangeLighter
         , purple
         , purpleDark
+        , purpleLight
         , purpleLighter
         , purpleLightest
         , red
         , redDark
+        , redLight
         , redLightest
+        , sunshine
+        , turquiseLight
         , turquoise
         , turquoiseDark
         , turquoiseLighter
         , turquoiseLightest
         , white
+        , yellow
         , yellowDark
         , yellowLight
         )
 
 {-| Helper module for working with colors
 
-@docs aqua, aquaDark, aquaLight, azureDark
+@docs aqua, aquaDark, aquaLight, azure, azureDark
 @docs black, white
 @docs blue, blueDark, blueDark5, blueDark70, blueDeep, blueLighter
-@docs coral, coralLighter, coralLightest, cornflower, cornflowerDark, cornflowerLight
-@docs gray, grayDark, grayDarker, grayLighter, grayLightest
-@docs grassland, green, greenDark, greenDarkest, greenLighter, greenLightest
+@docs coral, coralLighter, coralLightest, cornflower, cornflowerDark, cornflowerLight, cyan
+@docs frost
+@docs gray, gray45, gray80, gray75, gray92, gray96, grayDark, grayDarker, grayLighter, grayLightest
+@docs glacier, grassland, green, greenDark, greenDarkest, greenLight, greenLighter, greenLightest
 @docs highlightLightBlue, highlightLightMagenta, highlightLightYellow, highlightSolidBlue, highlightSolidMagenta, highlightSolidYellow
 @docs lichen, linkBlue, linkBlueLight, linkBlueMed, linkBlueDark
+@docs magenta
+@docs navy
 @docs orange, orangeDark, orangeLighter
-@docs purple, purpleDark, purpleLighter, purpleLightest
-@docs red, redDark, redLightest
-@docs turquoise, turquoiseDark, turquoiseLighter, turquoiseLightest
-@docs yellowDark, yellowLight
+@docs purple, purpleDark, purpleLight, purpleLighter, purpleLightest
+@docs red, redDark, redLight, redLightest
+@docs sunshine
+@docs turquoise, turquoiseDark, turquiseLight, turquoiseLighter, turquoiseLightest
+@docs yellow, yellowDark, yellowLight
 
 -}
 
@@ -107,6 +128,16 @@ aquaDark =
 aquaLight : Css.Color
 aquaLight =
     hex "#e6fcff"
+
+
+{-|
+
+<p style="font-size:2em; color: #0e5595">#0e5595</p>
+
+-}
+azure : Css.Color
+azure =
+    hex "0e5595"
 
 
 {-|
@@ -251,6 +282,36 @@ cornflowerLight =
 
 {-|
 
+<p style="font-size:2em; color: #43dcff">#43dcff</p>
+
+-}
+cyan : Css.Color
+cyan =
+    hex "43dcff"
+
+
+{-|
+
+<p style="font-size:2em; color: #eef9ff">#eef9ff</p>
+
+-}
+frost : Css.Color
+frost =
+    hex "eef9ff"
+
+
+{-|
+
+<p style="font-size:2em; color: #d4f0ff">#d4f0ff</p>
+
+-}
+glacier : Css.Color
+glacier =
+    hex "d4f0ff"
+
+
+{-|
+
 <p style="font-size:2em; color: #56bf74">#56bf74</p>
 
 -}
@@ -267,6 +328,56 @@ grassland =
 gray : Css.Color
 gray =
     hex "bfbfbf"
+
+
+{-|
+
+<p style="font-size:2em; color: #333333">#333333</p>
+
+-}
+gray80 : Css.Color
+gray80 =
+    hex "333333"
+
+
+{-|
+
+<p style="font-size:2em; color: #727272">#727272</p>
+
+-}
+gray45 : Css.Color
+gray45 =
+    hex "727272"
+
+
+{-|
+
+<p style="font-size:2em; color: #bfbfbf">#bfbfbf</p>
+
+-}
+gray75 : Css.Color
+gray75 =
+    hex "bfbfbf"
+
+
+{-|
+
+<p style="font-size:2em; color: #ebebeb">#ebebeb</p>
+
+-}
+gray92 : Css.Color
+gray92 =
+    hex "ebebeb"
+
+
+{-|
+
+<p style="font-size:2em; color: #f7f7f7">#f7f7f7</p>
+
+-}
+gray96 : Css.Color
+gray96 =
+    hex "f7f7f7"
 
 
 {-|
@@ -311,12 +422,12 @@ grayLightest =
 
 {-|
 
-<p style="font-size:2em; color: #3BD867">#3BD867</p>
+<p style="font-size:2em; color: #00e541">#00e541</p>
 
 -}
 green : Css.Color
 green =
-    hex "#3BD867"
+    hex "#00e541"
 
 
 {-|
@@ -341,6 +452,16 @@ greenDarkest =
 
 {-|
 
+<p style="font-size:2em; color: #b3ffc9">#b3ffc9</p>
+
+-}
+greenLight : Css.Color
+greenLight =
+    hex "b3ffc9"
+
+
+{-|
+
 <p style="font-size:2em; color: #C4F3D1; background-color: black;">#C4F3D1</p>
 
 -}
@@ -351,12 +472,12 @@ greenLighter =
 
 {-|
 
-<p style="font-size:2em; color: #E2F9E8; background-color: black;">#E2F9E8</p>
+<p style="font-size:2em; color: #e6ffed; background-color: black;">#e6ffed</p>
 
 -}
 greenLightest : Css.Color
 greenLightest =
-    hex "#E2F9E8"
+    hex "#e6ffed"
 
 
 {-|
@@ -471,6 +592,26 @@ linkBlueDark =
 
 {-|
 
+<p style="font-size:2em; color: #ff00bd">#ff00bd</p>
+
+-}
+magenta : Css.Color
+magenta =
+    hex "ff00bd"
+
+
+{-|
+
+<p style="font-size:2em; color: #0e5595">#0e5595</p>
+
+-}
+navy : Css.Color
+navy =
+    hex "0e5595"
+
+
+{-|
+
 <p style="font-size:2em; color: #F5A623">#F5A623</p>
 
 -}
@@ -501,12 +642,22 @@ orangeLighter =
 
 {-|
 
-<p style="font-size:2em; color: #8E62A7">#8E62A7</p>
+<p style="font-size:2em; color: #a839e7">#a839e7</p>
 
 -}
 purple : Css.Color
 purple =
-    hex "#8E62A7"
+    hex "#a839e7"
+
+
+{-|
+
+<p style="font-size:2em; color: #f7ebff">#f7ebff</p>
+
+-}
+purpleLight : Css.Color
+purpleLight =
+    hex "f7ebff"
 
 
 {-|
@@ -541,12 +692,22 @@ purpleLightest =
 
 {-|
 
-<p style="font-size:2em; color: #DF533A">#DF533A</p>
+<p style="font-size:2em; color: #f3336c">#f3336c</p>
 
 -}
 red : Css.Color
 red =
-    hex "#DF533A"
+    hex "#f3336c"
+
+
+{-|
+
+<p style="font-size:2em; color: #ffe0e6">#ffe0e6</p>
+
+-}
+redLight : Css.Color
+redLight =
+    hex "ffe0e6"
 
 
 {-|
@@ -571,12 +732,22 @@ redLightest =
 
 {-|
 
-<p style="font-size:2em; color: #08CFCB">#08CFCB</p>
+<p style="font-size:2em; color: #fffadc">#fffadc</p>
+
+-}
+sunshine : Css.Color
+sunshine =
+    hex "fffadc"
+
+
+{-|
+
+<p style="font-size:2em; color: #00cfbe">#00cfbe</p>
 
 -}
 turquoise : Css.Color
 turquoise =
-    hex "#08CFCB"
+    hex "#00cfbe"
 
 
 {-|
@@ -587,6 +758,16 @@ turquoise =
 turquoiseDark : Css.Color
 turquoiseDark =
     hex "#00A8A0"
+
+
+{-|
+
+<p style="font-size:2em; color: #e0fffe">#e0fffe</p>
+
+-}
+turquiseLight : Css.Color
+turquiseLight =
+    hex "e0fffe"
 
 
 {-|
@@ -617,6 +798,16 @@ turquoiseLightest =
 white : Css.Color
 white =
     hex "#fff"
+
+
+{-|
+
+<p style="font-size:2em; color: #FEC709">#FEC709</p>
+
+-}
+yellow : Css.Color
+yellow =
+    hex "FEC709"
 
 
 {-|
