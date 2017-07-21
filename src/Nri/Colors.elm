@@ -172,32 +172,32 @@ blue =
 
 {-|
 
-<p style="font-size:2em; color: #00488A">#00488A</p>
+<p style="font-size:2em; color: #0e5595">#0e5595</p>
 
 -}
 blueDark : Css.Color
 blueDark =
-    hex "#00488A"
+    hex "#0e5595"
 
 
 {-|
 
-<p style="font-size:2em; color: #F2F6F9; background-color: black;">#F2F6F9</p>
+<p style="font-size:2em; color: #eef9ff; background-color: black;">#eef9ff</p>
 
 -}
 blueDark5 : Css.Color
 blueDark5 =
-    hex "#F2F6F9"
+    hex "#eef9ff"
 
 
 {-|
 
-<p style="font-size:2em; color: #5484B0">#5484B0</p>
+<p style="font-size:2em; color: #0e5595">#0e5595</p>
 
 -}
 blueDark70 : Css.Color
 blueDark70 =
-    hex "#5484B0"
+    hex "#0e5595"
 
 
 {-|
@@ -382,22 +382,22 @@ gray96 =
 
 {-|
 
-<p style="font-size:2em; color: #8F8F8F">#8F8F8F</p>
+<p style="font-size:2em; color: #727272">#727272</p>
 
 -}
 grayDark : Css.Color
 grayDark =
-    hex "#8F8F8F"
+    hex "#727272"
 
 
 {-|
 
-<p style="font-size:2em; color: #7a787a">#7a787a</p>
+<p style="font-size:2em; color: #727272">#727272</p>
 
 -}
 grayDarker : Css.Color
 grayDarker =
-    hex "#7a787a"
+    hex "#727272"
 
 
 {-|
@@ -412,12 +412,12 @@ grayLighter =
 
 {-|
 
-<p style="font-size:2em; color: #f8f8f8; background-color: black;">#f8f8f8</p>
+<p style="font-size:2em; color: #f7f7f7; background-color: black;">#f7f7f7</p>
 
 -}
 grayLightest : Css.Color
 grayLightest =
-    hex "#f8f8f8"
+    hex "#f7f7f7"
 
 
 {-|
@@ -552,12 +552,12 @@ lichen =
 
 {-| main link and button color
 
-<p style="font-size:2em; color: #40A8E4">#40A8E4</p>
+<p style="font-size:2em; color: #146aff">#146aff</p>
 
 -}
 linkBlue : Css.Color
 linkBlue =
-    hex "#40A8E4"
+    hex "#146aff"
 
 
 {-| input accent color, link and button color against dark backgrounds where main color does not have enough contrast
@@ -572,12 +572,12 @@ linkBlueLight =
 
 {-| secondary color for cycling dots
 
-<p style="font-size:2em; color: #bde7ff; background-color: black;">#bde7ff</p>
+<p style="font-size:2em; color: #d4f0ff; background-color: black;">#d4f0ff</p>
 
 -}
 linkBlueMed : Css.Color
 linkBlueMed =
-    hex "#bde7ff"
+    hex "#d4f0ff"
 
 
 {-| mix($link-blue, black, 90%)
