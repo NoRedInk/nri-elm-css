@@ -157,7 +157,7 @@ azureDark =
 -}
 black : Css.Color
 black =
-    hex "#333333"
+    gray80
 
 
 {-|
@@ -177,7 +177,7 @@ blue =
 -}
 blueDark : Css.Color
 blueDark =
-    hex "#0e5595"
+    navy
 
 
 {-|
@@ -187,7 +187,7 @@ blueDark =
 -}
 blueDark5 : Css.Color
 blueDark5 =
-    hex "#eef9ff"
+    frost
 
 
 {-|
@@ -197,7 +197,7 @@ blueDark5 =
 -}
 blueDark70 : Css.Color
 blueDark70 =
-    hex "#0e5595"
+    navy
 
 
 {-|
@@ -222,32 +222,32 @@ blueLighter =
 
 {-|
 
-<p style="font-size:2em; color: #FF997B">#FF997B</p>
+<p style="font-size:2em; color: #F3336c">#F3336c</p>
 
 -}
 coral : Css.Color
 coral =
-    hex "#FF997B"
+    red
 
 
 {-|
 
-<p style="font-size:2em; color: #FFE0D7; background-color: black;">#FFE0D7</p>
+<p style="font-size:2em; color: #ffe0e6; background-color: black;">#ffe0e6</p>
 
 -}
 coralLighter : Css.Color
 coralLighter =
-    hex "#FFE0D7"
+    redLight
 
 
 {-|
 
-<p style="font-size:2em; color: #FFF0EB; background-color: black;">#FFF0EB</p>
+<p style="font-size:2em; color: #ffe0e6; background-color: black;">#ffe0e6</p>
 
 -}
 coralLightest : Css.Color
 coralLightest =
-    hex "#FFF0EB"
+    redLight
 
 
 {-|
@@ -327,7 +327,7 @@ grassland =
 -}
 gray : Css.Color
 gray =
-    hex "bfbfbf"
+    gray75
 
 
 {-|
@@ -387,7 +387,7 @@ gray96 =
 -}
 grayDark : Css.Color
 grayDark =
-    hex "#727272"
+    gray45
 
 
 {-|
@@ -397,7 +397,7 @@ grayDark =
 -}
 grayDarker : Css.Color
 grayDarker =
-    hex "#727272"
+    gray45
 
 
 {-|
@@ -407,7 +407,7 @@ grayDarker =
 -}
 grayLighter : Css.Color
 grayLighter =
-    hex "#EBEBEB"
+    gray92
 
 
 {-|
@@ -417,7 +417,7 @@ grayLighter =
 -}
 grayLightest : Css.Color
 grayLightest =
-    hex "#f7f7f7"
+    gray96
 
 
 {-|
@@ -462,12 +462,12 @@ greenLight =
 
 {-|
 
-<p style="font-size:2em; color: #C4F3D1; background-color: black;">#C4F3D1</p>
+<p style="font-size:2em; color: #b3ffc9; background-color: black;">#b3ffc9</p>
 
 -}
 greenLighter : Css.Color
 greenLighter =
-    hex "#C4F3D1"
+    greenLight
 
 
 {-|
@@ -517,7 +517,7 @@ highlightLightYellow =
 -}
 highlightSolidBlue : Css.Color
 highlightSolidBlue =
-    hex "#43dcff"
+    cyan
 
 
 {-|
@@ -527,7 +527,7 @@ highlightSolidBlue =
 -}
 highlightSolidMagenta : Css.Color
 highlightSolidMagenta =
-    hex "#ff00bd"
+    magenta
 
 
 {-|
@@ -537,7 +537,7 @@ highlightSolidMagenta =
 -}
 highlightSolidYellow : Css.Color
 highlightSolidYellow =
-    hex "#fec70a"
+    yellow
 
 
 {-|
@@ -557,7 +557,7 @@ lichen =
 -}
 linkBlue : Css.Color
 linkBlue =
-    hex "#146aff"
+    azure
 
 
 {-| input accent color, link and button color against dark backgrounds where main color does not have enough contrast
@@ -577,7 +577,7 @@ linkBlueLight =
 -}
 linkBlueMed : Css.Color
 linkBlueMed =
-    hex "#d4f0ff"
+    glacier
 
 
 {-| mix($link-blue, black, 90%)
@@ -622,12 +622,12 @@ orange =
 
 {-|
 
-<p style="font-size:2em; color: #F09819">#F09819</p>
+<p style="font-size:2em; color: #FEC709">#FEC709</p>
 
 -}
 orangeDark : Css.Color
 orangeDark =
-    hex "#F09819"
+    yellow
 
 
 {-|
@@ -672,22 +672,22 @@ purpleDark =
 
 {-|
 
-<p style="font-size:2em; color: #DDCFE4; background-color: black;">#DDCFE4</p>
+<p style="font-size:2em; color: #f7ebff; background-color: black;">#f7ebff</p>
 
 -}
 purpleLighter : Css.Color
 purpleLighter =
-    hex "#DDCFE4"
+    purpleLight
 
 
 {-|
 
-<p style="font-size:2em; color: #EEE8F2; background-color: black;">#EEE8F2</p>
+<p style="font-size:2em; color: #f7ebff; background-color: black;">#f7ebff</p>
 
 -}
 purpleLightest : Css.Color
 purpleLightest =
-    hex "#EEE8F2"
+    purpleLight
 
 
 {-|
@@ -722,12 +722,12 @@ redDark =
 
 {-|
 
-<p style="font-size:2em; color: #FDF6F5">#FDF6F5</p>
+<p style="font-size:2em; color: #ffe0e6">#ffe0e6</p>
 
 -}
 redLightest : Css.Color
 redLightest =
-    hex "#FDF6F5"
+    redLight
 
 
 {-|
@@ -772,22 +772,22 @@ turquiseLight =
 
 {-|
 
-<p style="font-size:2em; color: #B4F0EF; background-color: black;">#B4F0EF</p>
+<p style="font-size:2em; color: #e0fffe; background-color: black;">#e0fffe</p>
 
 -}
 turquoiseLighter : Css.Color
 turquoiseLighter =
-    hex "#B4F0EF"
+    turquiseLight
 
 
 {-|
 
-<p style="font-size:2em; color: #DAF8F7; background-color: black;">#DAF8F7</p>
+<p style="font-size:2em; color: #e0fffe; background-color: black;">#e0fffe</p>
 
 -}
 turquoiseLightest : Css.Color
 turquoiseLightest =
-    hex "#DAF8F7"
+    turquiseLight
 
 
 {-|
@@ -812,12 +812,12 @@ yellow =
 
 {-|
 
-<p style="font-size:2em; color: #ffec75; background-color: black;">#ffec75</p>
+<p style="font-size:2em; color: #FEC709; background-color: black;">#FEC709</p>
 
 -}
 yellowDark : Css.Color
 yellowDark =
-    hex "#ffec75"
+    yellow
 
 
 {-|
@@ -827,4 +827,4 @@ yellowDark =
 -}
 yellowLight : Css.Color
 yellowLight =
-    hex "#fffadc"
+    sunshine
