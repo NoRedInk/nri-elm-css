@@ -132,12 +132,12 @@ aquaLight =
 
 {-|
 
-<p style="font-size:2em; color: #0e5595">#0e5595</p>
+<p style="font-size:2em; color: #146aff">#146aff</p>
 
 -}
 azure : Css.Color
 azure =
-    hex "0e5595"
+    hex "146aff"
 
 
 {-|
