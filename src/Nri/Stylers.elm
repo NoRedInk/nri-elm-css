@@ -13,9 +13,9 @@ import Nri.Fonts
 {-|
 takes a size and a color and creates a font
 -}
-makeFont : Css.FontSize a -> Css.ColorValue b -> Mixin
+makeFont : Css.FontSize a -> Css.ColorValue b -> Style
 makeFont size fontColor =
-    mixin
+    Css.batch
         [ Nri.Fonts.baseFont
         , fontSize size
         , color fontColor
