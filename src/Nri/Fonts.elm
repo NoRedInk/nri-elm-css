@@ -15,13 +15,13 @@ import Css exposing (..)
 
 {-| Font for instructions, headers, and pretty much everything else
 -}
-baseFont : Mixin
+baseFont : Style
 baseFont =
     fontFamilies [ qt "Muli", "Helvetica", "Arial", "sans-serif" ]
 
 
 {-| Font for question sentences, or most interactable or graded fields
 -}
-quizFont : Mixin
+quizFont : Style
 quizFont =
     fontFamilies [ qt "Georgia", "serif" ]
