@@ -132,12 +132,12 @@ aquaLight =
 
 {-|
 
-<p style="font-size:2em; color: #146aff">#146aff</p>
+<p style="font-size:2em; color: #0e5595">#0e5595</p>
 
 -}
 azure : Css.Color
 azure =
-    hex "146aff"
+    hex "0e5595"
 
 
 {-|
@@ -372,12 +372,12 @@ gray92 =
 
 {-|
 
-<p style="font-size:2em; color: #f5f5f5">#f5f5f5</p>
+<p style="font-size:2em; color: #f7f7f7">#f7f7f7</p>
 
 -}
 gray96 : Css.Color
 gray96 =
-    hex "f5f5f5"
+    hex "f7f7f7"
 
 
 {-|
@@ -412,7 +412,7 @@ grayLighter =
 
 {-|
 
-<p style="font-size:2em; color: #f5f5f5; background-color: black;">#f5f5f5</p>
+<p style="font-size:2em; color: #f7f7f7; background-color: black;">#f7f7f7</p>
 
 -}
 grayLightest : Css.Color
