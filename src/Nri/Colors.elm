@@ -44,7 +44,12 @@ module Nri.Colors
         , yellowLight
         )
 
-{-| Helper module for working with colors
+{-| Helper module for working with colors.
+
+**NOTE:** Rather than adding functions to convert css colors into their string
+representation, consider converting css colors to core colors and then using
+[elm-color-extra](http://package.elm-lang.org/packages/eskimoblood/elm-color-extra/5.0.0/)
+to convert to string.
 
 @docs black, white
 @docs blue, blueDark, blueDark5, blueDark70, blueDeep, blueLighter
