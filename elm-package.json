@@ -8,11 +8,13 @@
     ],
     "exposed-modules": [
         "Nri",
-        "Nri.Colors",
-        "Nri.Stylers",
-        "Nri.Fonts",
         "Nri.Accessibility",
-        "Nri.Css.Extra"
+        "Nri.Colors",
+        "Nri.Colors.Deprecated",
+        "Nri.Colors.Extra",
+        "Nri.Css.Extra",
+        "Nri.Fonts",
+        "Nri.Stylers"
     ],
     "dependencies": {
         "elm-lang/core": "4.0.0 <= v < 6.0.0",
