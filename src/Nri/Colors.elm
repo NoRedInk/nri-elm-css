@@ -75,6 +75,7 @@ to convert to string.
 -}
 
 import Css exposing (hex, rgba)
+import Nri.Colors.Extra exposing (withAlpha)
 
 
 {-|
@@ -334,7 +335,7 @@ greenLightest =
 -}
 highlightLightBlue : Css.Color
 highlightLightBlue =
-    rgba 66 219 255 0.75
+    withAlpha 0.75 cyan
 
 
 {-|
@@ -344,7 +345,7 @@ highlightLightBlue =
 -}
 highlightLightMagenta : Css.Color
 highlightLightMagenta =
-    rgba 255 0 189 0.5
+    withAlpha 0.5 magenta
 
 
 {-|
@@ -354,7 +355,7 @@ highlightLightMagenta =
 -}
 highlightLightYellow : Css.Color
 highlightLightYellow =
-    rgba 254 199 9 0.75
+    withAlpha 0.75 yellow
 
 
 {-|
