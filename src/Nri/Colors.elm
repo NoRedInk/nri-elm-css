@@ -64,11 +64,11 @@ module Nri.Colors
         , redLight
         , redLightest
         , sunshine
-        , turquiseLight
         , turquoise
         , turquoiseDark
         , turquoiseLighter
         , turquoiseLightest
+        , turquoiseLight
         , white
         , yellow
         , yellowDark
@@ -97,7 +97,7 @@ to convert to string.
 @docs purple, purpleDark, purpleLight, purpleLighter, purpleLightest
 @docs red, redDark, redLight, redLightest
 @docs sunshine
-@docs turquoise, turquoiseDark, turquiseLight, turquoiseLighter, turquoiseLightest
+@docs turquoise, turquoiseDark, turquoiseLight, turquoiseLighter, turquoiseLightest
 @docs yellow, yellowDark, yellowLight
 
 -}
@@ -770,8 +770,8 @@ turquoiseDark =
 <p style="font-size:2em; color: #e0fffe">#e0fffe</p>
 
 -}
-turquiseLight : Css.Color
-turquiseLight =
+turquoiseLight : Css.Color
+turquoiseLight =
     hex "e0fffe"
 
 
@@ -782,7 +782,7 @@ turquiseLight =
 -}
 turquoiseLighter : Css.Color
 turquoiseLighter =
-    turquiseLight
+    turquoiseLight
 
 
 {-|
@@ -792,7 +792,7 @@ turquoiseLighter =
 -}
 turquoiseLightest : Css.Color
 turquoiseLightest =
-    turquiseLight
+    turquoiseLight
 
 
 {-|
