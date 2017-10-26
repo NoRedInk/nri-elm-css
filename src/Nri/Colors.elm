@@ -357,16 +357,6 @@ lichen =
     hex "#99bfa4"
 
 
-{-| TODO mix($link-blue, black, 90%)
-
-<p style="font-size:2em; color: #3a97cd">#3a97cd</p>
-
--}
-linkBlueDark : Css.Color
-linkBlueDark =
-    hex "#3a97cd"
-
-
 {-|
 
 <p style="font-size:2em; color: #ff00bd">#ff00bd</p>

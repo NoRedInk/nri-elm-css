@@ -18,6 +18,7 @@ module Nri.Colors.Deprecated
         , highlightSolidMagenta
         , highlightSolidYellow
         , linkBlue
+        , linkBlueDark
         , linkBlueLight
         , linkBlueMed
         , linkBlueSuperLight
@@ -46,7 +47,7 @@ Renamed colors. Use the new name
 @docs black, gray, grayDark, grayDarker, grayLighter, grayLightest
 @docs greenLighter
 @docs highlightSolidBlue, highlightSolidMagenta, highlightSolidYellow
-@docs blueDark, blueDark5, blueDark70, blueLighter, linkBlue, linkBlueLight, linkBlueMed
+@docs blueDark, blueDark5, blueDark70, blueLighter, linkBlue, linkBlueDark, linkBlueLight, linkBlueMed
 @docs orangeDark
 @docs purpleLighter, purpleLightest
 @docs turquoiseLighter, turquoiseLightest
@@ -238,6 +239,16 @@ main link and button color
 linkBlue : Css.Color
 linkBlue =
     azure
+
+
+{-| linkBlueDark is now azureDark
+
+<p style="font-size:2em; color: #004cc9">#004cc9</p>
+
+-}
+linkBlueDark : Css.Color
+linkBlueDark =
+    azureDark
 
 
 {-| linkBlueLight is now blueLighter
