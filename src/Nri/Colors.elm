@@ -390,12 +390,12 @@ magenta =
 
 {-|
 
-<p style="font-size:2em; color: #0e5595">#0e5595</p>
+<p style="font-size:2em; color: #004e95">#004e95</p>
 
 -}
 navy : Css.Color
 navy =
-    hex "0e5595"
+    hex "#004e95"
 
 
 {-|
