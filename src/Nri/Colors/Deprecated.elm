@@ -58,14 +58,14 @@ import Css exposing (hex, rgba)
 import Nri.Colors exposing (..)
 
 
-{-| black is now gray80
+{-| black is now gray20
 
 <p style="font-size:2em; color: #333333">#333333</p>
 
 -}
 black : Css.Color
 black =
-    gray80
+    gray20
 
 
 {-| blueDark is now navy

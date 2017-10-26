@@ -14,9 +14,9 @@ module Nri.Colors
         , frost
         , glacier
         , grassland
+        , gray20
         , gray45
         , gray75
-        , gray80
         , gray92
         , gray96
         , green
@@ -58,7 +58,7 @@ to convert to string.
 @docs blue, blueDeep
 @docs cornflower, cornflowerDark, cornflowerLight, cyan
 @docs frost
-@docs gray45, gray80, gray75, gray92, gray96
+@docs gray20, gray45, gray75, gray92, gray96
 @docs glacier, grassland, green, greenDark, greenDarkest, greenLight, greenLightest
 @docs highlightLightBlue, highlightLightMagenta, highlightLightYellow
 @docs lichen
@@ -222,9 +222,9 @@ grassland =
 <p style="font-size:2em; color: #333333">#333333</p>
 
 -}
-gray80 : Css.Color
-gray80 =
-    hex "333333"
+gray20 : Css.Color
+gray20 =
+    hex "#333333"
 
 
 {-|
