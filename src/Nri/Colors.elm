@@ -31,6 +31,7 @@ module Nri.Colors
         , lichen
         , magenta
         , navy
+        , ochre
         , orange
         , orangeDark
         , orangeLighter
@@ -66,7 +67,7 @@ to convert to string.
 @docs lichen
 @docs magenta
 @docs navy
-@docs orange, orangeDark, orangeLighter
+@docs orange, ochre, orangeDark, orangeLighter
 @docs purple, purpleDark, purpleLight
 @docs red, redDark, redLight
 @docs sunshine
@@ -406,6 +407,16 @@ navy =
 orange : Css.Color
 orange =
     hex "#F5A623"
+
+
+{-|
+
+<p style="font-size:2em; color: #e68800">#e68800</p>
+
+-}
+ochre : Css.Color
+ochre =
+    hex "#e68800"
 
 
 {-|
