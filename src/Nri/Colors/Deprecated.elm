@@ -4,6 +4,7 @@ module Nri.Colors.Deprecated
         , blueDark
         , blueDark5
         , blueDark70
+        , blueLighter
         , coral
         , coralLighter
         , coralLightest
@@ -45,7 +46,7 @@ Renamed colors. Use the new name
 @docs black, gray, grayDark, grayDarker, grayLighter, grayLightest
 @docs greenLighter
 @docs highlightSolidBlue, highlightSolidMagenta, highlightSolidYellow
-@docs blueDark, blueDark5, blueDark70, linkBlue, linkBlueLight, linkBlueMed
+@docs blueDark, blueDark5, blueDark70, blueLighter, linkBlue, linkBlueLight, linkBlueMed
 @docs orangeDark
 @docs purpleLighter, purpleLightest
 @docs turquoiseLighter, turquoiseLightest
@@ -95,6 +96,16 @@ blueDark5 =
 blueDark70 : Css.Color
 blueDark70 =
     navy
+
+
+{-|
+
+<p style="font-size:2em; color: #eef9ff; background-color: black;">#eef9ff</p>
+
+-}
+blueLighter : Css.Color
+blueLighter =
+    frost
 
 
 {-| coral is now red

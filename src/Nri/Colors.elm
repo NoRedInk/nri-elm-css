@@ -7,7 +7,6 @@ module Nri.Colors
         , azureDark
         , blue
         , blueDeep
-        , blueLighter
         , cornflower
         , cornflowerDark
         , cornflowerLight
@@ -56,7 +55,7 @@ to convert to string.
 
 @docs aqua, aquaDark, aquaLight, azure, azureDark
 @docs white
-@docs blue, blueDeep, blueLighter
+@docs blue, blueDeep
 @docs cornflower, cornflowerDark, cornflowerLight, cyan
 @docs frost
 @docs gray45, gray80, gray75, gray92, gray96
@@ -146,16 +145,6 @@ blue =
 blueDeep : Css.Color
 blueDeep =
     hex "#4a79a7"
-
-
-{-|
-
-<p style="font-size:2em; color: #e4eff5; background-color: black;">#e4eff5</p>
-
--}
-blueLighter : Css.Color
-blueLighter =
-    hex "#e4eff5"
 
 
 {-|
