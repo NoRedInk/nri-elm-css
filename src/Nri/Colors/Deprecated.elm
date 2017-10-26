@@ -20,6 +20,7 @@ module Nri.Colors.Deprecated
         , linkBlueLight
         , linkBlueMed
         , linkBlueSuperLight
+        , orangeDark
         , purpleLighter
         , purpleLightest
         , redLightest
@@ -43,6 +44,7 @@ Renamed colors. Use the new name
 @docs greenLighter
 @docs highlightSolidBlue, highlightSolidMagenta, highlightSolidYellow
 @docs blueDark, blueDark5, blueDark70, linkBlue, linkBlueLight, linkBlueMed
+@docs orangeDark
 @docs purpleLighter, purpleLightest
 @docs turquoiseLighter, turquoiseLightest
 @docs yellowDark, yellowLight
@@ -258,6 +260,16 @@ current style guide.
 linkBlueSuperLight : Css.Color
 linkBlueSuperLight =
     hex "#CBE4F5"
+
+
+{-| orangeDark is now ochre
+
+<p style="font-size:2em; color: #e68800">#e68800</p>
+
+-}
+orangeDark : Css.Color
+orangeDark =
+    ochre
 
 
 {-| purpleLighter is now purpleLight
