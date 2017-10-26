@@ -500,12 +500,12 @@ turquoise =
 
 {-|
 
-<p style="font-size:2em; color: #00A8A0">#00A8A0</p>
+<p style="font-size:2em; color: #00A39B">#00A39B</p>
 
 -}
 turquoiseDark : Css.Color
 turquoiseDark =
-    hex "#00A8A0"
+    hex "#00A39B"
 
 
 {-|
