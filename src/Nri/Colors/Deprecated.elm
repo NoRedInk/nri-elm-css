@@ -21,6 +21,7 @@ module Nri.Colors.Deprecated
         , linkBlueMed
         , linkBlueSuperLight
         , orangeDark
+        , orangeLighter
         , purpleLighter
         , purpleLightest
         , redLightest
@@ -37,6 +38,7 @@ module Nri.Colors.Deprecated
 
 Colors listed below are in the process of being killed or renamed.
 @docs linkBlueSuperLight
+@docs orangeLighter
 
 Renamed colors. Use the new name
 @docs coral, coralLighter, coralLightest, redLightest
@@ -270,6 +272,16 @@ linkBlueSuperLight =
 orangeDark : Css.Color
 orangeDark =
     ochre
+
+
+{-| orangeLighter is not in the style guide, nor in the code base
+
+<p style="font-size:2em; color: #F9C97B; background-color: black;">#F9C97B</p>
+
+-}
+orangeLighter : Css.Color
+orangeLighter =
+    hex "#F9C97B"
 
 
 {-| purpleLighter is now purpleLight
