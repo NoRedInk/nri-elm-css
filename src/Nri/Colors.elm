@@ -5,16 +5,9 @@ module Nri.Colors
         , aquaLight
         , azure
         , azureDark
-        , black
         , blue
-        , blueDark
-        , blueDark5
-        , blueDark70
         , blueDeep
         , blueLighter
-        , coral
-        , coralLighter
-        , coralLightest
         , cornflower
         , cornflowerDark
         , cornflowerLight
@@ -22,33 +15,20 @@ module Nri.Colors
         , frost
         , glacier
         , grassland
-        , gray
         , gray45
         , gray75
         , gray80
         , gray92
         , gray96
-        , grayDark
-        , grayDarker
-        , grayLighter
-        , grayLightest
         , green
         , greenDark
         , greenDarkest
         , greenLight
-        , greenLighter
         , greenLightest
         , highlightLightBlue
         , highlightLightMagenta
         , highlightLightYellow
-        , highlightSolidBlue
-        , highlightSolidMagenta
-        , highlightSolidYellow
         , lichen
-        , linkBlue
-        , linkBlueDark
-        , linkBlueLight
-        , linkBlueMed
         , magenta
         , navy
         , orange
@@ -57,22 +37,15 @@ module Nri.Colors
         , purple
         , purpleDark
         , purpleLight
-        , purpleLighter
-        , purpleLightest
         , red
         , redDark
         , redLight
-        , redLightest
         , sunshine
         , turquoise
         , turquoiseDark
-        , turquoiseLighter
-        , turquoiseLightest
         , turquoiseLight
         , white
         , yellow
-        , yellowDark
-        , yellowLight
         )
 
 {-| Helper module for working with colors.
@@ -83,22 +56,22 @@ representation, consider converting css colors to core colors and then using
 to convert to string.
 
 @docs aqua, aquaDark, aquaLight, azure, azureDark
-@docs black, white
-@docs blue, blueDark, blueDark5, blueDark70, blueDeep, blueLighter
-@docs coral, coralLighter, coralLightest, cornflower, cornflowerDark, cornflowerLight, cyan
+@docs white
+@docs blue, blueDeep, blueLighter
+@docs cornflower, cornflowerDark, cornflowerLight, cyan
 @docs frost
-@docs gray, gray45, gray80, gray75, gray92, gray96, grayDark, grayDarker, grayLighter, grayLightest
-@docs glacier, grassland, green, greenDark, greenDarkest, greenLight, greenLighter, greenLightest
-@docs highlightLightBlue, highlightLightMagenta, highlightLightYellow, highlightSolidBlue, highlightSolidMagenta, highlightSolidYellow
-@docs lichen, linkBlue, linkBlueLight, linkBlueMed, linkBlueDark
+@docs gray45, gray80, gray75, gray92, gray96
+@docs glacier, grassland, green, greenDark, greenDarkest, greenLight, greenLightest
+@docs highlightLightBlue, highlightLightMagenta, highlightLightYellow
+@docs lichen
 @docs magenta
 @docs navy
 @docs orange, orangeDark, orangeLighter
-@docs purple, purpleDark, purpleLight, purpleLighter, purpleLightest
-@docs red, redDark, redLight, redLightest
+@docs purple, purpleDark, purpleLight
+@docs red, redDark, redLight
 @docs sunshine
-@docs turquoise, turquoiseDark, turquoiseLight, turquoiseLighter, turquoiseLightest
-@docs yellow, yellowDark, yellowLight
+@docs turquoise, turquoiseDark, turquoiseLight
+@docs yellow
 
 -}
 
@@ -157,52 +130,12 @@ azureDark =
 
 {-|
 
-<p style="font-size:2em; color: #333333">#333333</p>
-
--}
-black : Css.Color
-black =
-    gray80
-
-
-{-|
-
 <p style="font-size:2em; color: #40a8e4">#40a8e4</p>
 
 -}
 blue : Css.Color
 blue =
     hex "#40a8e4"
-
-
-{-|
-
-<p style="font-size:2em; color: #0e5595">#0e5595</p>
-
--}
-blueDark : Css.Color
-blueDark =
-    navy
-
-
-{-|
-
-<p style="font-size:2em; color: #eef9ff; background-color: black;">#eef9ff</p>
-
--}
-blueDark5 : Css.Color
-blueDark5 =
-    frost
-
-
-{-|
-
-<p style="font-size:2em; color: #0e5595">#0e5595</p>
-
--}
-blueDark70 : Css.Color
-blueDark70 =
-    navy
 
 
 {-|
@@ -223,36 +156,6 @@ blueDeep =
 blueLighter : Css.Color
 blueLighter =
     hex "#e4eff5"
-
-
-{-|
-
-<p style="font-size:2em; color: #F3336c">#F3336c</p>
-
--}
-coral : Css.Color
-coral =
-    red
-
-
-{-|
-
-<p style="font-size:2em; color: #ffe0e6; background-color: black;">#ffe0e6</p>
-
--}
-coralLighter : Css.Color
-coralLighter =
-    redLight
-
-
-{-|
-
-<p style="font-size:2em; color: #ffe0e6; background-color: black;">#ffe0e6</p>
-
--}
-coralLightest : Css.Color
-coralLightest =
-    redLight
 
 
 {-|
@@ -327,16 +230,6 @@ grassland =
 
 {-|
 
-<p style="font-size:2em; color: #bfbfbf; background-color: black;">#bfbfbf</p>
-
--}
-gray : Css.Color
-gray =
-    gray75
-
-
-{-|
-
 <p style="font-size:2em; color: #333333">#333333</p>
 
 -}
@@ -387,46 +280,6 @@ gray96 =
 
 {-|
 
-<p style="font-size:2em; color: #727272">#727272</p>
-
--}
-grayDark : Css.Color
-grayDark =
-    gray45
-
-
-{-|
-
-<p style="font-size:2em; color: #727272">#727272</p>
-
--}
-grayDarker : Css.Color
-grayDarker =
-    gray45
-
-
-{-|
-
-<p style="font-size:2em; color: #EBEBEB; background-color: black;">#EBEBEB</p>
-
--}
-grayLighter : Css.Color
-grayLighter =
-    gray92
-
-
-{-|
-
-<p style="font-size:2em; color: #f5f5f5; background-color: black;">#f5f5f5</p>
-
--}
-grayLightest : Css.Color
-grayLightest =
-    gray96
-
-
-{-|
-
 <p style="font-size:2em; color: #00e541">#00e541</p>
 
 -}
@@ -463,16 +316,6 @@ greenDarkest =
 greenLight : Css.Color
 greenLight =
     hex "b3ffc9"
-
-
-{-|
-
-<p style="font-size:2em; color: #b3ffc9; background-color: black;">#b3ffc9</p>
-
--}
-greenLighter : Css.Color
-greenLighter =
-    greenLight
 
 
 {-|
@@ -517,72 +360,12 @@ highlightLightYellow =
 
 {-|
 
-<p style="font-size:2em; color: #43dcff">#43dcff</p>
-
--}
-highlightSolidBlue : Css.Color
-highlightSolidBlue =
-    cyan
-
-
-{-|
-
-<p style="font-size:2em; color: #ff00bd">#ff00bd</p>
-
--}
-highlightSolidMagenta : Css.Color
-highlightSolidMagenta =
-    magenta
-
-
-{-|
-
-<p style="font-size:2em; color: #fec70a">#fec70a</p>
-
--}
-highlightSolidYellow : Css.Color
-highlightSolidYellow =
-    yellow
-
-
-{-|
-
 <p style="font-size:2em; color: #99bfa4">#99bfa4</p>
 
 -}
 lichen : Css.Color
 lichen =
     hex "#99bfa4"
-
-
-{-| main link and button color
-
-<p style="font-size:2em; color: #146aff">#146aff</p>
-
--}
-linkBlue : Css.Color
-linkBlue =
-    azure
-
-
-{-| input accent color, link and button color against dark backgrounds where main color does not have enough contrast
-
-<p style="font-size:2em; color: #E4EFF5; background-color: black;">#E4EFF5</p>
-
--}
-linkBlueLight : Css.Color
-linkBlueLight =
-    hex "#E4EFF5"
-
-
-{-| secondary color for cycling dots
-
-<p style="font-size:2em; color: #d4f0ff; background-color: black;">#d4f0ff</p>
-
--}
-linkBlueMed : Css.Color
-linkBlueMed =
-    glacier
 
 
 {-| mix($link-blue, black, 90%)
@@ -677,26 +460,6 @@ purpleDark =
 
 {-|
 
-<p style="font-size:2em; color: #f7ebff; background-color: black;">#f7ebff</p>
-
--}
-purpleLighter : Css.Color
-purpleLighter =
-    purpleLight
-
-
-{-|
-
-<p style="font-size:2em; color: #f7ebff; background-color: black;">#f7ebff</p>
-
--}
-purpleLightest : Css.Color
-purpleLightest =
-    purpleLight
-
-
-{-|
-
 <p style="font-size:2em; color: #f3336c">#f3336c</p>
 
 -}
@@ -723,16 +486,6 @@ redLight =
 redDark : Css.Color
 redDark =
     hex "#c2003a"
-
-
-{-|
-
-<p style="font-size:2em; color: #ffe0e6">#ffe0e6</p>
-
--}
-redLightest : Css.Color
-redLightest =
-    redLight
 
 
 {-|
@@ -777,26 +530,6 @@ turquoiseLight =
 
 {-|
 
-<p style="font-size:2em; color: #e0fffe; background-color: black;">#e0fffe</p>
-
--}
-turquoiseLighter : Css.Color
-turquoiseLighter =
-    turquoiseLight
-
-
-{-|
-
-<p style="font-size:2em; color: #e0fffe; background-color: black;">#e0fffe</p>
-
--}
-turquoiseLightest : Css.Color
-turquoiseLightest =
-    turquoiseLight
-
-
-{-|
-
 <p style="font-size:2em; color: #fff; background-color: black;">#fff</p>
 
 -}
@@ -813,23 +546,3 @@ white =
 yellow : Css.Color
 yellow =
     hex "FEC709"
-
-
-{-|
-
-<p style="font-size:2em; color: #FEC709; background-color: black;">#FEC709</p>
-
--}
-yellowDark : Css.Color
-yellowDark =
-    yellow
-
-
-{-|
-
-<p style="font-size:2em; color: #fffadc; background-color: black;">#fffadc</p>
-
--}
-yellowLight : Css.Color
-yellowLight =
-    sunshine
