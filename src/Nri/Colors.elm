@@ -421,12 +421,12 @@ ochre =
 
 {-|
 
-<p style="font-size:2em; color: #FEC709">#FEC709</p>
+<p style="font-size:2em; color: #e68800">#e68800</p>
 
 -}
 orangeDark : Css.Color
 orangeDark =
-    yellow
+    ochre
 
 
 {-|
