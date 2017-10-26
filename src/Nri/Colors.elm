@@ -114,7 +114,7 @@ aquaLight =
 -}
 azure : Css.Color
 azure =
-    hex "146aff"
+    hex "#146aff"
 
 
 {-|
@@ -127,7 +127,7 @@ azureDark =
     hex "#004cc9"
 
 
-{-|
+{-| TODO
 
 <p style="font-size:2em; color: #40a8e4">#40a8e4</p>
 
@@ -137,7 +137,7 @@ blue =
     hex "#40a8e4"
 
 
-{-|
+{-| TODO
 
 <p style="font-size:2em; color: #4a79a7">#4a79a7</p>
 
@@ -159,12 +159,12 @@ cornflower =
 
 {-|
 
-<p style="font-size:2em; color: #0074AD">#0074AD</p>
+<p style="font-size:2em; color: #0074ad">#0074ad</p>
 
 -}
 cornflowerDark : Css.Color
 cornflowerDark =
-    hex "#0074AD"
+    hex "#0074ad"
 
 
 {-|
@@ -184,7 +184,7 @@ cornflowerLight =
 -}
 cyan : Css.Color
 cyan =
-    hex "43dcff"
+    hex "#43dcff"
 
 
 {-|
@@ -194,7 +194,7 @@ cyan =
 -}
 frost : Css.Color
 frost =
-    hex "eef9ff"
+    hex "#eef9ff"
 
 
 {-|
@@ -204,7 +204,7 @@ frost =
 -}
 glacier : Css.Color
 glacier =
-    hex "d4f0ff"
+    hex "#d4f0ff"
 
 
 {-|
@@ -234,7 +234,7 @@ gray20 =
 -}
 gray45 : Css.Color
 gray45 =
-    hex "727272"
+    hex "#727272"
 
 
 {-|
@@ -244,7 +244,7 @@ gray45 =
 -}
 gray75 : Css.Color
 gray75 =
-    hex "bfbfbf"
+    hex "#bfbfbf"
 
 
 {-|
@@ -254,7 +254,7 @@ gray75 =
 -}
 gray92 : Css.Color
 gray92 =
-    hex "ebebeb"
+    hex "#ebebeb"
 
 
 {-|
@@ -279,12 +279,12 @@ green =
 
 {-|
 
-<p style="font-size:2em; color: #26A300">#26A300</p>
+<p style="font-size:2em; color: #26a300">#26a300</p>
 
 -}
 greenDark : Css.Color
 greenDark =
-    hex "#26A300"
+    hex "#26a300"
 
 
 {-|
@@ -304,7 +304,7 @@ greenDarkest =
 -}
 greenLight : Css.Color
 greenLight =
-    hex "b3ffc9"
+    hex "#b3ffc9"
 
 
 {-|
@@ -317,7 +317,7 @@ greenLightest =
     hex "#e6ffed"
 
 
-{-|
+{-| cyan with alpha of 0.75
 
 <p style="font-size:2em; color: rgba(66, 219, 255, 0.75)">rgba(66, 219, 255, 0.75)</p>
 
@@ -327,7 +327,7 @@ highlightLightBlue =
     withAlpha 0.75 cyan
 
 
-{-|
+{-| magenta with alpha of 0.5
 
 <p style="font-size:2em; color: rgba(255, 0 ,189, 0.5)">rgba(255, 0 ,189, 0.5)</p>
 
@@ -337,7 +337,7 @@ highlightLightMagenta =
     withAlpha 0.5 magenta
 
 
-{-|
+{-| yellow with alpha of 0.75
 
 <p style="font-size:2em; color: rgba(254, 199 ,9, 0.75)">rgba(254, 199 ,9, 0.75)</p>
 
@@ -357,14 +357,14 @@ lichen =
     hex "#99bfa4"
 
 
-{-| mix($link-blue, black, 90%)
+{-| TODO mix($link-blue, black, 90%)
 
-<p style="font-size:2em; color: #3A97CD">#3A97CD</p>
+<p style="font-size:2em; color: #3a97cd">#3a97cd</p>
 
 -}
 linkBlueDark : Css.Color
 linkBlueDark =
-    hex "#3A97CD"
+    hex "#3a97cd"
 
 
 {-|
@@ -374,7 +374,7 @@ linkBlueDark =
 -}
 magenta : Css.Color
 magenta =
-    hex "ff00bd"
+    hex "#ff00bd"
 
 
 {-|
@@ -387,14 +387,14 @@ navy =
     hex "#004e95"
 
 
-{-|
+{-| -- TODO
 
-<p style="font-size:2em; color: #F5A623">#F5A623</p>
+<p style="font-size:2em; color: #f5a623">#f5a623</p>
 
 -}
 orange : Css.Color
 orange =
-    hex "#F5A623"
+    hex "#f5a623"
 
 
 {-|
@@ -424,17 +424,17 @@ purple =
 -}
 purpleLight : Css.Color
 purpleLight =
-    hex "f7ebff"
+    hex "#f7ebff"
 
 
 {-|
 
-<p style="font-size:2em; color: #7721A7">#7721A7</p>
+<p style="font-size:2em; color: #7721a7">#7721a7</p>
 
 -}
 purpleDark : Css.Color
 purpleDark =
-    hex "#7721A7"
+    hex "#7721a7"
 
 
 {-|
@@ -454,7 +454,7 @@ red =
 -}
 redLight : Css.Color
 redLight =
-    hex "ffe0e6"
+    hex "#ffe0e6"
 
 
 {-|
@@ -474,7 +474,7 @@ redDark =
 -}
 sunshine : Css.Color
 sunshine =
-    hex "fffadc"
+    hex "#fffadc"
 
 
 {-|
@@ -489,12 +489,12 @@ turquoise =
 
 {-|
 
-<p style="font-size:2em; color: #00A39B">#00A39B</p>
+<p style="font-size:2em; color: #00a39b">#00a39b</p>
 
 -}
 turquoiseDark : Css.Color
 turquoiseDark =
-    hex "#00A39B"
+    hex "#00a39b"
 
 
 {-|
@@ -504,24 +504,24 @@ turquoiseDark =
 -}
 turquoiseLight : Css.Color
 turquoiseLight =
-    hex "e0fffe"
+    hex "#e0fffe"
 
 
 {-|
 
-<p style="font-size:2em; color: #fff; background-color: black;">#fff</p>
+<p style="font-size:2em; color: #ffffff; background-color: black;">#ffffff</p>
 
 -}
 white : Css.Color
 white =
-    hex "#fff"
+    hex "#ffffff"
 
 
 {-|
 
-<p style="font-size:2em; color: #FEC709">#FEC709</p>
+<p style="font-size:2em; color: #fec709">#fec709</p>
 
 -}
 yellow : Css.Color
 yellow =
-    hex "FEC709"
+    hex "#fec709"
