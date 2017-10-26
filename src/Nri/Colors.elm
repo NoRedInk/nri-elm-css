@@ -264,17 +264,17 @@ gray92 =
 -}
 gray96 : Css.Color
 gray96 =
-    hex "f5f5f5"
+    hex "#f5f5f5"
 
 
 {-|
 
-<p style="font-size:2em; color: #00e541">#00e541</p>
+<p style="font-size:2em; color: #00d93e">#00d93e</p>
 
 -}
 green : Css.Color
 green =
-    hex "#00e541"
+    hex "#00d93e"
 
 
 {-|
