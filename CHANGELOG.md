@@ -29,7 +29,7 @@ The hex code underneath should not change.
 | highlightSolidYellow           | yellow                            |
 | linkBlue                       | azure                             |
 | linkBlueDark                   | **azureDark** (see color changes) |
-| linkBlueLight                  | blueLighter                       |
+| linkBlueLight                  | **frost** (see color changes)     |
 | linkBlueMed                    | glacier                           |
 | orangeLighter                  | no equivalent color               |
 | orangeDark                     | **ochre** (see color changes)     |
