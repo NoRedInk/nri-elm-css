@@ -1,11 +1,11 @@
-module Nri.Colors.Extra exposing (..)
+module Nri.Colors.Extra exposing (toCoreColor, withAlpha)
 
 {-| Helpers for working with colors. Put color definitions in Nri.Colors itself.
 
 
 # Conversions
 
-@docs toCoreColor
+@docs toCoreColor, withAlpha
 
 -}
 
@@ -21,3 +21,14 @@ import Css exposing (..)
 toCoreColor : Css.Color -> Color.Color
 toCoreColor cssColor =
     Color.rgba cssColor.red cssColor.green cssColor.blue cssColor.alpha
+
+
+{-| Add an alpha property to a Css.Color
+
+    grassland -- "{ value = "#56bf74", color = Compatible, red = 86, green = 191, blue = 116, alpha = 1, warnings = [] } : Css.Color"
+    withAlpha 0.5 grassland -- "{ value = "rgba(86, 191, 116, 0.5)", color = Compatible, warnings = [], red = 86, green = 191, blue = 116, alpha = 0.5 } : Css.Color"
+
+-}
+withAlpha : Float -> Css.Color -> Css.Color
+withAlpha alpha { red, green, blue } =
+    Css.rgba red green blue alpha
